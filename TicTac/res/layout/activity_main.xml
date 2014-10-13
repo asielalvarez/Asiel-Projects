@@ -120,6 +120,15 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:gravity="top|center"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
@@ -127,17 +136,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
+        android:minHeight="60dp"
+        android:minWidth="100dp"
         android:text="Button" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button10"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="21dp"
-        android:gravity="top"
-        android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
