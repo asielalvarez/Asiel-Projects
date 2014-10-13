@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
 	}
 //	public void buttonClicked(View v){
 //        Button button = (Button)v;
+	
 //        EditText user = (EditText)findViewById(R.id.username);
 //        EditText pass = (EditText)findViewById(R.id.password);
 //        error = (TextView)findViewById(R.id.error);
