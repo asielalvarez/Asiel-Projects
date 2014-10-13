@@ -34,6 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
+                android:onClick="buttonClicked"
                 android:text="@string/button1"
                 android:width="70dp" />
 
@@ -44,6 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
+                android:onClick="buttonClicked"
                 android:text="@string/button2"
                 android:width="70dp" />
 
@@ -54,6 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
+                android:onClick="buttonClicked"
                 android:text="@string/button3"
                 android:width="70dp" />
 
@@ -64,6 +67,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
+                android:onClick="buttonClicked"
                 android:text="@string/button4"
                 android:width="70dp" />
 
@@ -74,6 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
+                android:onClick="buttonClicked"
                 android:text="@string/button5"
                 android:width="70dp" />
 
@@ -84,6 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
+                android:onClick="buttonClicked"
                 android:text="@string/button6"
                 android:width="70dp" />
 
@@ -94,6 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
+                android:onClick="buttonClicked"
                 android:text="@string/button7"
                 android:width="70dp" />
 
@@ -104,6 +111,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
+                android:onClick="buttonClicked"
                 android:text="@string/button8"
                 android:width="70dp" />
 
@@ -114,14 +122,16 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
+                android:onClick="buttonClicked"
                 android:text="@string/button9"
                 android:width="70dp" />
+
         </GridLayout>
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/infoText"
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="21dp"

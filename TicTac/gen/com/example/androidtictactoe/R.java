@@ -37,8 +37,8 @@ public final class R {
         public static final int button8=0x7f080009;
         public static final int button9=0x7f08000a;
         public static final int gridLayout1=0x7f080001;
-        public static final int infoText=0x7f08000b;
         public static final int linearLayout1=0x7f080000;
+        public static final int text=0x7f08000b;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
