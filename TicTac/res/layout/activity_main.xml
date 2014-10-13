@@ -28,13 +28,23 @@
             android:rowCount="3" >
 
             <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:height="70dp"
+                android:text="@string/button1"
+                android:width="70dp" />
+
+            <Button
                 android:id="@+id/button2"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
-                android:text="Button"
+                android:text="@string/button2"
                 android:width="70dp" />
 
             <Button
@@ -44,37 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
-                android:text="Button"
-                android:width="70dp" />
-
-            <Button
-                android:id="@+id/button5"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:height="70dp"
-                android:text="Button"
-                android:width="70dp" />
-
-            <Button
-                android:id="@+id/button9"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:height="70dp"
-                android:text="Button"
-                android:width="70dp" />
-
-            <Button
-                android:id="@+id/button6"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:height="70dp"
-                android:text="Button"
+                android:text="@string/button3"
                 android:width="70dp" />
 
             <Button
@@ -84,7 +64,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
-                android:text="Button"
+                android:text="@string/button4"
+                android:width="70dp" />
+
+            <Button
+                android:id="@+id/button5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:height="70dp"
+                android:text="@string/button5"
+                android:width="70dp" />
+
+            <Button
+                android:id="@+id/button6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:height="70dp"
+                android:text="@string/button6"
                 android:width="70dp" />
 
             <Button
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
-                android:text="Button"
+                android:text="@string/button7"
                 android:width="70dp" />
 
             <Button
@@ -104,29 +104,29 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
-                android:text="Button"
+                android:text="@string/button8"
                 android:width="70dp" />
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/button9"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:height="70dp"
-                android:text="Button"
+                android:text="@string/button9"
                 android:width="70dp" />
         </GridLayout>
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/infoText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="21dp"
         android:gravity="top|center"
-        android:text="Large Text"
+        android:text="@string/infoText"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
@@ -138,6 +138,6 @@
         android:layout_marginBottom="32dp"
         android:minHeight="60dp"
         android:minWidth="90dp"
-        android:text="Button" />
+        android:text="@string/NewGame" />
 
 </RelativeLayout>
