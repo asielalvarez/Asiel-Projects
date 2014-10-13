@@ -19,6 +19,12 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+//	public void buttonClicked(View v){
+//        Button button = (Button)v;
+//        EditText user = (EditText)findViewById(R.id.username);
+//        EditText pass = (EditText)findViewById(R.id.password);
+//        error = (TextView)findViewById(R.id.error);
+//	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
