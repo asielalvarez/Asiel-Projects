@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 		return true;
 	}
 //	public void buttonClicked(View v){
-//        Button button = (Button)v;
+//        Button button = (Button)asv;
 	
 //        EditText user = (EditText)findViewById(R.id.username);
 //        EditText pass = (EditText)findViewById(R.id.password);
