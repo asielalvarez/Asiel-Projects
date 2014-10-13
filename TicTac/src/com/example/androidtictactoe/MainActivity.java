@@ -4,6 +4,7 @@ package com.example.androidtictactoe;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,6 +26,7 @@ public class MainActivity extends Activity {
 	private Button button8;
 	private Button button9;
 	private TextView infoText;
+	private View someView;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,11 @@ public class MainActivity extends Activity {
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		someView = findViewById(R.id.gridLayout1);
+		View root = someView.getRootView();
+		root.setBackgroundColor(getResources().getColor(android.R.color.holo_blue_dark));
+		
 	}
 
 	@Override
@@ -52,7 +59,6 @@ public class MainActivity extends Activity {
 	public void buttonClicked(View v){
 		
         Button button = (Button)v;
-        
         String symbol;
         
         if(counter % 2 == 0){
@@ -220,7 +226,6 @@ public class MainActivity extends Activity {
 			
 			if(counter % 2 == 0){
 				infoText.setText("O - wins!");
-				//infoText.setForeground(Color.RED);
 				infoText.setTextColor(Color.RED);
 				
 			}

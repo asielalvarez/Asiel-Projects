@@ -36,6 +36,7 @@
                 android:height="70dp"
                 android:onClick="buttonClicked"
                 android:text="@string/button1"
+                android:textSize="40sp"
                 android:width="70dp" />
 
             <Button
@@ -47,6 +48,7 @@
                 android:height="70dp"
                 android:onClick="buttonClicked"
                 android:text="@string/button2"
+                android:textSize="40sp"
                 android:width="70dp" />
 
             <Button
@@ -58,6 +60,7 @@
                 android:height="70dp"
                 android:onClick="buttonClicked"
                 android:text="@string/button3"
+                android:textSize="40sp"
                 android:width="70dp" />
 
             <Button
@@ -69,6 +72,7 @@
                 android:height="70dp"
                 android:onClick="buttonClicked"
                 android:text="@string/button4"
+                android:textSize="40sp"
                 android:width="70dp" />
 
             <Button
@@ -80,6 +84,7 @@
                 android:height="70dp"
                 android:onClick="buttonClicked"
                 android:text="@string/button5"
+                android:textSize="40sp"
                 android:width="70dp" />
 
             <Button
@@ -91,6 +96,7 @@
                 android:height="70dp"
                 android:onClick="buttonClicked"
                 android:text="@string/button6"
+                android:textSize="40sp"
                 android:width="70dp" />
 
             <Button
@@ -102,6 +108,7 @@
                 android:height="70dp"
                 android:onClick="buttonClicked"
                 android:text="@string/button7"
+                android:textSize="40sp"
                 android:width="70dp" />
 
             <Button
@@ -113,6 +120,7 @@
                 android:height="70dp"
                 android:onClick="buttonClicked"
                 android:text="@string/button8"
+                android:textSize="40sp"
                 android:width="70dp" />
 
             <Button
@@ -124,6 +132,7 @@
                 android:height="70dp"
                 android:onClick="buttonClicked"
                 android:text="@string/button9"
+                android:textSize="40sp"
                 android:width="70dp" />
 
         </GridLayout>
@@ -137,7 +146,8 @@
         android:layout_marginTop="21dp"
         android:gravity="top|center"
         android:text="@string/infoText"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/button10"
@@ -149,6 +159,7 @@
         android:minHeight="60dp"
         android:minWidth="90dp"
         android:onClick="newGame"
-        android:text="@string/NewGame" />
+        android:text="@string/NewGame"
+        android:textSize="25sp" />
 
 </RelativeLayout>
