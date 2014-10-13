@@ -148,6 +148,7 @@
         android:layout_marginBottom="32dp"
         android:minHeight="60dp"
         android:minWidth="90dp"
+        android:onClick="newGame"
         android:text="@string/NewGame" />
 
 </RelativeLayout>
